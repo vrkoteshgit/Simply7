@@ -1,1 +1,234 @@
-
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; BACKGROUND: #809315; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+#main_wrap {
+	BACKGROUND: url(img01.jpg) #809315 repeat-x left top
+}
+INPUT {
+	BORDER-RIGHT: #e5e5e5 1px solid; BORDER-TOP: #a3a3a3 1px solid; BACKGROUND: url(img04.gif) #ffffff repeat-x; FONT: 1em "Trebuchet MS", Arial, Helvetica, sans-serif; BORDER-LEFT: #d6d6d6 1px solid; WIDTH: 220px; COLOR: #6e6e6e; BORDER-BOTTOM: #ffffff 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #e5e5e5 1px solid; BORDER-TOP: #a3a3a3 1px solid; BACKGROUND: url(img04.gif) #ffffff repeat-x; FONT: 1em "Trebuchet MS", Arial, Helvetica, sans-serif; BORDER-LEFT: #d6d6d6 1px solid; WIDTH: 220px; COLOR: #6e6e6e; BORDER-BOTTOM: #ffffff 1px solid
+}
+H1 {
+	
+}
+H2 {
+	
+}
+H3 {
+	
+}
+H1 {
+	TEXT-DECORATION: none
+}
+H1 A {
+	TEXT-DECORATION: none
+}
+H2 {
+	TEXT-DECORATION: none
+}
+H2 A {
+	TEXT-DECORATION: none
+}
+H1 A:hover {
+	TEXT-DECORATION: underline
+}
+H2 A:hover {
+	TEXT-DECORATION: underline
+}
+H1 {
+	FONT-SIZE: 38px
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 28px
+}
+H3 {
+	FONT-SIZE: 16px
+}
+P {
+	MARGIN-TOP: 1.5em; LINE-HEIGHT: 190%
+}
+UL {
+	MARGIN-TOP: 1.5em; LINE-HEIGHT: 190%
+}
+OL {
+	MARGIN-TOP: 1.5em; LINE-HEIGHT: 190%
+}
+UL {
+	MARGIN-LEFT: 3em
+}
+OL {
+	MARGIN-LEFT: 3em
+}
+BLOCKQUOTE {
+	MARGIN-LEFT: 3em; MARGIN-RIGHT: 3em
+}
+A {
+	COLOR: #ffffff
+}
+A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+IMG.left {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+IMG.right {
+	FLOAT: right; MARGIN-RIGHT: 20px
+}
+HR {
+	DISPLAY: none
+}
+#header {
+	BACKGROUND: url(img02.jpg) no-repeat left top; MARGIN: 0px auto; WIDTH: 960px; HEIGHT: 206px
+}
+#logo {
+	MARGIN: 0px auto; WIDTH: 870px; HEIGHT: 152px
+}
+#logo H1 {
+	MARGIN: 0px
+}
+#logo H2 {
+	MARGIN: 0px
+}
+#logo H1 {
+	PADDING-LEFT: 50px; FONT-WEIGHT: normal; FLOAT: left; TEXT-TRANSFORM: lowercase; PADDING-TOP: 75px
+}
+#logo H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FLOAT: left; TEXT-TRANSFORM: uppercase; PADDING-TOP: 95px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#logo H2 {
+	COLOR: #ffffff
+}
+#logo H2 A {
+	COLOR: #ffffff
+}
+#logo A {
+	TEXT-DECORATION: none
+}
+#menu {
+	PADDING-BOTTOM: 30px; MARGIN: 0px auto; WIDTH: 960px
+}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 28px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: normal; PADDING-TOP: 23px; LIST-STYLE-TYPE: none
+}
+#menu LI {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#menu LI.first A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #619e00; FLOAT: left; PADDING-BOTTOM: 9px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; PADDING-TOP: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#menu A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #406800; FLOAT: left; PADDING-BOTTOM: 10px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#menu A:hover {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #619e00; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; TEXT-DECORATION: none
+}
+#search {
+	FLOAT: right; WIDTH: 200px
+}
+#search FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: -10px 0px 0px; PADDING-TOP: 0px
+}
+#search FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#search INPUT {
+	
+}
+#search #s {
+	WIDTH: 150px
+}
+#search #x {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #406800; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 30px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#banner {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 0px auto; WIDTH: 960px; PADDING-TOP: 8px
+}
+#page {
+	PADDING-RIGHT: 35px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 900px; PADDING-TOP: 45px
+}
+#content {
+	FLOAT: right; WIDTH: 603px
+}
+.post {
+	
+}
+.post .title {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(img04.gif) no-repeat left 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 20px; BORDER-BOTTOM: #ffffff 1px solid
+}
+.post .title A:hover {
+	TEXT-DECORATION: none
+}
+.post .entry {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.post .meta {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(img07.gif) #4e9fc8 no-repeat; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 20px; LINE-HEIGHT: normal; PADDING-TOP: 10px; HEIGHT: 25px
+}
+#sidebar {
+	FLOAT: left; WIDTH: 250px
+}
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: normal; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sidebar LI {
+	MARGIN-BOTTOM: 40px
+}
+#sidebar LI UL {
+	
+}
+#sidebar LI LI {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+#sidebar LI H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 18px; BACKGROUND: url(img03.jpg) #4e9fc8 no-repeat; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 5px; HEIGHT: 30px
+}
+#sidebar LI P {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#sidebar #calendar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#calendar CAPTION {
+	
+}
+#calendar TABLE {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#calendar THEAD TH {
+	BORDER-TOP: #f2f2f2 1px solid; BORDER-BOTTOM: #f2f2f2 2px solid
+}
+#calendar TBODY TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #f2f2f2 1px solid
+}
+#calendar TFOOT TD {
+	BORDER-TOP: #f2f2f2 1px solid
+}
+#calendar #prev {
+	TEXT-ALIGN: left
+}
+#calendar #next {
+	TEXT-ALIGN: right
+}
+#calendar A {
+	FONT-WEIGHT: bold
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 45px; BORDER-TOP: #4e9fc8 5px solid; PADDING-LEFT: 45px; PADDING-BOTTOM: 35px; MARGIN: 0px auto; WIDTH: 870px; PADDING-TOP: 35px; HEIGHT: 50px
+}
+#footer P {
+	MARGIN: 0px; COLOR: #ffffff; LINE-HEIGHT: normal
+}
+#footer A {
+	COLOR: #406800
+}
+#footer .legal {
+	FLOAT: left
+}
+#footer .credit {
+	FLOAT: right
+}
