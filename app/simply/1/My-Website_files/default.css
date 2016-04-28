@@ -1,1 +1,150 @@
-
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: small Georgia, "Times New Roman", Times, serif; COLOR: #999999; PADDING-TOP: 0px
+}
+#main_wrap {
+	BACKGROUND: url(img01.jpg) #ffffff repeat-x
+}
+H1 {
+	FONT-WEIGHT: normal; MARGIN: 0px; TEXT-TRANSFORM: lowercase
+}
+H2 {
+	FONT-WEIGHT: normal; MARGIN: 0px; TEXT-TRANSFORM: lowercase
+}
+H3 {
+	FONT-WEIGHT: normal; MARGIN: 0px; TEXT-TRANSFORM: lowercase
+}
+H2 {
+	FONT-SIZE: 2em
+}
+H3 {
+	FONT-SIZE: 1.4em
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A {
+	COLOR: #333333
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#header {
+	MARGIN: 0px auto; WIDTH: 700px; HEIGHT: 200px
+}
+#logo {
+	HEIGHT: 110px
+}
+#logo H1 {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; FONT-SIZE: 48px; BACKGROUND: url(img02.gif) no-repeat right center; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 40px; LETTER-SPACING: -2px
+}
+#logo H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 24px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 61px
+}
+#logo A {
+	COLOR: #1a1a1a; TEXT-DECORATION: none
+}
+#menu {
+	HEIGHT: 70px
+}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#menu LI {
+	DISPLAY: inline
+}
+#menu A {
+	DISPLAY: block; FONT-SIZE: 30px; FLOAT: left; TEXT-TRANSFORM: lowercase; WIDTH: 140px; COLOR: #ae7181; PADDING-TOP: 25px; LETTER-SPACING: -2px; HEIGHT: 45px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#menu A:hover {
+	COLOR: #1a1a1a
+}
+#menu .active A {
+	BACKGROUND: url(img03.jpg) no-repeat; COLOR: #ffffff
+}
+#gallery {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 700px; HEIGHT: 480px
+}
+#top-photo H2 {
+	FONT-SIZE: 1em; HEIGHT: 1.4em
+}
+#top-photo P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#prev {
+	DISPLAY: block; BACKGROUND: url(img11.gif) no-repeat; FLOAT: left; WIDTH: 30px; HEIGHT: 100px
+}
+#next {
+	DISPLAY: block; BACKGROUND: url(img13.gif) no-repeat right top; FLOAT: left; WIDTH: 30px; HEIGHT: 100px
+}
+#prev SPAN {
+	DISPLAY: none
+}
+#next SPAN {
+	DISPLAY: none
+}
+#thumbs {
+	DISPLAY: block; BACKGROUND: url(img12.gif) no-repeat; FLOAT: left; WIDTH: 640px; HEIGHT: 100px
+}
+#thumbs IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+#content {
+	MARGIN: 0px auto; WIDTH: 700px
+}
+#posts {
+	FLOAT: right; WIDTH: 430px
+}
+.post {
+	MARGIN-BOTTOM: 10px
+}
+.post .title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; COLOR: #6d4e5e; PADDING-TOP: 0px
+}
+.post .meta {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: smaller; BACKGROUND: url(img15.gif) no-repeat; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.post .meta P {
+	MARGIN: 0px
+}
+.post .story {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 180%; PADDING-TOP: 10px
+}
+#sidebar {
+	FLOAT: left; WIDTH: 250px
+}
+.boxed {
+	BACKGROUND: url(img14.gif) no-repeat 0em 2.5em; MARGIN-BOTTOM: 1.5em
+}
+.boxed H2 {
+	PADDING-LEFT: 20px; COLOR: #759820
+}
+.boxed .content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.boxed UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.boxed LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #0078ff 1px dotted
+}
+.boxed A {
+	COLOR: #759820; TEXT-DECORATION: none
+}
+.boxed A:hover {
+	TEXT-DECORATION: underline
+}
+#tagcloud {
+	
+}
+#tagcloud .content {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: smaller; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; TEXT-ALIGN: justify
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 40px; PADDING-LEFT: 40px; BACKGROUND: url(img16.gif) #a4556a repeat-x; PADDING-BOTTOM: 40px; PADDING-TOP: 40px
+}
+#footer P {
+	FONT-SIZE: smaller; MARGIN: 0px; COLOR: #ffffff; TEXT-ALIGN: center
+}
+#footer A {
+	COLOR: #ffffff
+}
