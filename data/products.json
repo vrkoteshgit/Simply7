@@ -1,0 +1,42 @@
+[
+    {
+        "id": "IEM001",
+        "name": "K TV",
+        "imageUrl": "ktv.png",
+        "quantity": "100",
+        "minBid": "50",
+        "isActiveBid": "false",
+        "sellerBid": "75",
+        "bidOver": "false"
+    },
+    {
+        "id": "IEM002",
+        "name": "K Mobile",
+        "imageUrl": "kmobile.png",
+        "quantity": "400",
+        "minBid": "100",
+        "isActiveBid": "false",
+        "sellerBid": "200",
+        "bidOver": "false"
+    },
+    {
+        "id": "IEM003",
+        "name": "K Health Product",
+        "imageUrl": "khelthptod.png",
+        "quantity": "300",
+        "minBid": "30",
+        "isActiveBid": "false",
+        "sellerBid": "100",
+        "bidOver": "false"
+    },
+    {
+        "id": "IEM004",
+        "name": "K It Gift",
+        "imageUrl": "kgift.png",
+        "quantity": "300",
+        "minBid": "20",
+        "isActiveBid": "true",
+        "sellerBid": "200",
+        "bidOver": "false"
+    }
+]
