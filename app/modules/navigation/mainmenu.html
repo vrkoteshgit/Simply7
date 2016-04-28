@@ -1,0 +1,35 @@
+<div ng-show="!viewLeftNav" ng-click="toggleLeftNav()"  style="left:300px;top:20px;z-index:500" ><img alt="Bootstrap Image Preview" src="images/leftNavHandle.jpg" class="img-rounded" /></div>
+<br><br>
+<div class="col-sm-12" ng-show="viewLeftNav" style="position:fixed;width:249px;left:-15px;z-index:2; border:1px solid #ccc">
+  <i class="btn pull-right fa fa-hand-o-left" title="{{viewLeftNav}}" ng-click="toggleLeftNav()"></i><h4> Scheduled Menu </h4>
+  <div class="row">
+    <div class="col-sm-12" style="background: rgb(255, 255, 215) none repeat scroll 0% 0%;">
+      <div ui-tree id="moduleMenu-root">
+        <ol ui-tree-nodes="" ng-model="currentModules">
+          <li ng-repeat="node in currentModules" ui-tree-node ng-include="'nodes_scheduled.html'"></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/ng-template" id="nodes_scheduled.html">
+  <div class="tree-node">
+    <div class="pull-left tree-handle">
+      <a class="btn btn-xs"><i class="fa fa-arrows-v"></i></a>
+    </div>
+    <div class="tree-node-content">
+      <a class="btn btn-xs" data-nodrag ng-click="openMenu(this)">
+        <span class="fa" ng-class="{
+          'fa fa-plus-square-o': collapsed,
+          'fa fa-minus-square-o': !collapsed
+          }">
+        </span>
+        {{node.title}}
+      </a>
+    </div>
+  </div>
+  <ol ui-tree-nodes="" ng-model="node.nodes" ng-class="{hidden: collapsed}">
+    <li ng-repeat="node in node.nodes" ui-tree-node ng-include="'nodes_scheduled.html'">
+    </li>
+  </ol>
+</script>
