@@ -1,0 +1,168 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+#main_wrap {
+	BACKGROUND: url(img01.gif) #372412 repeat-x
+}
+BODY {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+OPTION {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: lowercase; COLOR: #ffffff; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: lowercase; COLOR: #ffffff; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: lowercase; COLOR: #ffffff; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 3em; LETTER-SPACING: -2px
+}
+H2 {
+	FONT-SIZE: 2em; LETTER-SPACING: -1px
+}
+H3 {
+	FONT-SIZE: 1em
+}
+P {
+	LINE-HEIGHT: 200%
+}
+UL {
+	LINE-HEIGHT: 200%
+}
+OL {
+	LINE-HEIGHT: 200%
+}
+BLOCKQUOTE {
+	PADDING-LEFT: 1em
+}
+BLOCKQUOTE P {
+	LINE-HEIGHT: normal; FONT-STYLE: italic
+}
+BLOCKQUOTE UL {
+	LINE-HEIGHT: normal; FONT-STYLE: italic
+}
+BLOCKQUOTE OL {
+	LINE-HEIGHT: normal; FONT-STYLE: italic
+}
+A {
+	COLOR: #ffea6f
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#header {
+	BACKGROUND: url(img02.jpg) no-repeat; MARGIN: 0px auto; WIDTH: 830px; HEIGHT: 280px
+}
+#logo {
+	BACKGROUND: url(img07.gif) no-repeat left 65%; HEIGHT: 170px
+}
+#logo H1 {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 50px; FONT-SIZE: 48px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 40px; LETTER-SPACING: -2px
+}
+#logo H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 24px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 68px
+}
+#logo A {
+	COLOR: #372412; TEXT-DECORATION: none
+}
+#gallery {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 830px; HEIGHT: 300px
+}
+#top-photo H2 {
+	FONT-SIZE: 1em; HEIGHT: 1.4em
+}
+#top-photo P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#menu {
+	BACKGROUND: url(img03.jpg) no-repeat; WIDTH: 830px; HEIGHT: 70px
+}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#menu LI {
+	DISPLAY: inline
+}
+#menu A {
+	DISPLAY: block; FONT-SIZE: 24px; FLOAT: left; TEXT-TRANSFORM: lowercase; WIDTH: 166px; COLOR: #ffffff; PADDING-TOP: 35px; LETTER-SPACING: -1px; HEIGHT: 73px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#menu A:hover {
+	BACKGROUND: url(img09.jpg) no-repeat; COLOR: #ffffff
+}
+#menu .active A {
+	BACKGROUND: url(img09.jpg) no-repeat; COLOR: #372412
+}
+#page {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 830px; PADDING-TOP: 20px
+}
+#content {
+	FLOAT: left; WIDTH: 532px
+}
+.post {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 0px
+}
+.title {
+	MARGIN: 0px; BORDER-BOTTOM: #4a3903 2px solid
+}
+.byline {
+	MARGIN: 0px
+}
+.meta {
+	BORDER-TOP: #4a3903 1px solid; COLOR: #646464; TEXT-ALIGN: right
+}
+.meta A {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; BACKGROUND: url(img06.gif) no-repeat left center
+}
+#sidebar {
+	FLOAT: right; WIDTH: 240px
+}
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sidebar LI {
+	
+}
+#sidebar LI UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+#sidebar LI LI {
+	PADDING-LEFT: 30px; BACKGROUND: url(img06.gif) no-repeat 15px 50%; BORDER-BOTTOM: #4a3903 1px dotted
+}
+#sidebar H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; BACKGROUND: url(img05.gif) no-repeat left bottom; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 20px; BORDER-BOTTOM: #4a3903 2px solid
+}
+#sidebar A {
+	TEXT-DECORATION: none
+}
+#sidebar A:hover {
+	TEXT-DECORATION: underline
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: #e8ad35 3px solid; PADDING-LEFT: 0px; FONT-SIZE: smaller; BACKGROUND: #ffea6f; PADDING-BOTTOM: 20px; COLOR: #e8ad35; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+#footer A {
+	COLOR: #c28c21
+}
