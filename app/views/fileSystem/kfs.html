@@ -1,0 +1,25 @@
+<div ng-controller="KfsCtrl" style='display: inline-block; vertical-align: top; width: 60%'>
+	<div>
+		<button ng-click='writeVal()'>Write to Filesystem</button>
+		<button ng-click='readVal()'>Read from Filesystem</button>
+		<button ng-click='getUsageInfo()'>Get Usage</button>
+		<button ng-click='requestIncrease()'>Request Increase</button>
+		<button ng-click='getFiles("/")'>Show File List</button>
+		<button ng-click='deleteFile("E:/Kotesh/KW/Simple7WS/msg2.txt")'>Delete File</button>
+		<button ng-click='cacheFile("http://i.imgur.com/ptRCZYA.jpg")'>Cache File</button>
+		<button ng-click='createFolder("documents/blah/")'>Create Folders</button>
+		<button ng-click='deleteFolder("documents/", true)'>Delete Folder</button>
+		<button ng-click='clearFS()'>Clear Local Filesystem</button>
+	</div>
+	<div>
+		<input type='file' id='fileInput'/>
+		<button ng-click='saveFileInput()'>Save to FS</button>
+	</div>
+	
+	<div ng-repeat="message in messages track by $index">{{message}}</div>
+</div>
+
+<div style='display: inline-block; vertical-align: top; width: 35%'>
+	<button onclick='document.querySelector("iframe").src+=""'>Reload</button>
+	<iframe src='filesystem:http://anthonymaciel.com/persistent/' style="width: 100%; height: 800px; border: none;" />
+</div>
