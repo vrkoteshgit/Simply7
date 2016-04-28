@@ -1,0 +1,100 @@
+<div class="row">
+  <div class="col-lg-12">
+    <uib-accordion close-others="false">
+      <uib-accordion-group is-open="exOpen">
+        <uib-accordion-heading>
+          Existing Modules <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': exOpen, 'glyphicon-chevron-right': !exOpen}"></i>
+        </uib-accordion-heading>
+        <div ui-tree id="tree1-root">
+          <ol ui-tree-nodes="" ng-model="existingModules">
+            <li ng-repeat="node in existingModules" ui-tree-node ng-include="'nodes_renderer1.html'"></li>
+          </ol>
+        </div>
+      </uib-accordion-group>
+      <uib-accordion-group is-open="schOpen" style="background: rgb(255, 255, 215) none repeat scroll 0% 0%;">
+        <uib-accordion-heading style="background: rgb(246, 194, 151) none repeat scroll 0% 0%;">
+          Scheduled Modules <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': schOpen, 'glyphicon-chevron-right': !schOpen}"></i>
+        </uib-accordion-heading>
+          <div ui-tree id="tree2-root" data-clone-enabled="true">
+            <ol ui-tree-nodes="" ng-model="currentModules">
+              <li ng-repeat="node in currentModules" ui-tree-node ng-include="'nodes_renderer2.html'"></li>
+            </ol>
+          </div>
+        </uib-accordion-group>
+        <uib-accordion-group is-open="bindOpen">
+          <uib-accordion-heading>
+            Data binding <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': bindOpen, 'glyphicon-chevron-right': !bindOpen}"></i>
+          </uib-accordion-heading>
+          <div class="row">
+            <div class="col-sm-6" style="height:200px;overflow:auto">
+              <pre class="code">{{ existingModules | json }}</pre>
+            </div>
+            <div class="col-sm-6" style="height:200px;overflow:auto">
+              <pre class="code">{{ currentModules | json }}</pre>
+            </div>
+          </div>
+        </uib-accordion-group>
+       <uib-accordion-group is-open="schCalOpen">
+        <uib-accordion-heading>
+          Schedule Calendar <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': bindOpen, 'glyphicon-chevron-right': !schCalOpen}"></i>
+        </uib-accordion-heading>
+          <ng-include src="'modules/common/calendar.template.html'"></ng-include>
+        </uib-accordion-group>
+    </uib-accordion>
+  </div>
+</div>
+<script type="text/ng-template" id="nodes_renderer1.html">
+  <div ui-tree-handle class="tree-node tree-node-content">
+    <div class="tree-node-content">
+      <a class="btn btn-xs pull-left" data-nodrag ng-click="toggle(this)"><span class="fa" ng-class="{'fa fa-plus-square-o': collapsed, 'fa fa-minus-square-o': !collapsed}"></span>
+      </a>
+      <span ng-show="exEditEnabled">
+        <a class="btn btn-xs pull-left" data-nodrag ng-click="remove(this)"><span class="fa fa-trash"></span></a>
+        <a class="btn btn-xs pull-left" data-nodrag ng-click="newSubItem(this)"><span class="fa fa-plus"></span></a>
+      </span>
+      <span href='#/{{node.routeKey}}' class="col-sm-2">{{node.title}}</span>
+      <span ng-show="exEditEnabled">
+        Name: <input type='text' ng-model="node.title"/> Route Key: <input type='text' ng-model="node.routeKey"/>
+      </span>
+      <a class="btn btn-xs" data-nodrag ng-click="exEditEnabled=!exEditEnabled"><span class="fa fa-pencil" ng-class="{
+          'fa fa-check': exEditEnabled,
+          'fa fa-pencil': !exEditEnabled
+          }"></span></a>
+    </div>
+  </div>
+  <ol ui-tree-nodes="" ng-model="node.nodes" ng-class="{hidden: collapsed}">
+    <li ng-repeat="node in node.nodes" ui-tree-node ng-include="'nodes_renderer1.html'">
+    </li>
+  </ol>
+</script>
+<script type="text/ng-template" id="nodes_renderer2.html">
+  <div class="tree-node">
+    <div class="pull-left tree-handle" >
+      <i class="fa fa-list"></i>
+    </div>
+    <div class="tree-node-content">
+      <a class="btn btn-xs pull-left" data-nodrag ng-click="toggle(this)">
+        <i class="fa" ng-class="{
+          'fa fa-plus-square-o': collapsed,
+          'fa fa-minus-square-o': !collapsed
+          }">
+        </i>
+      </a>
+      <span ng-show="schEditEnabled">
+        <a class="btn btn-xs pull-left" data-nodrag ng-click="remove(this)"><span class="fa fa-trash"></span></a>
+        <a class="btn btn-xs pull-left" data-nodrag ng-click="newSubItem(this)"><span class="fa fa-plus"></span></a>
+      </span>
+      <span href='#/{{node.routeKey}}' class="col-sm-2">{{node.title}}</span>
+      <span ng-show="schEditEnabled">Name: <input type='text' ng-model="node.title"/> Route Key: <input type='text' ng-model="node.routeKey"/>
+      </span>
+      <a class="btn btn-xs" data-nodrag ng-click="schEditEnabled=!schEditEnabled"><span class="fa fa-pencil" ng-class="{
+          'fa fa-check': schEditEnabled,
+          'fa fa-pencil': !schEditEnabled
+          }"></span></a>
+    </div>
+  </div>
+  <ol ui-tree-nodes="" ng-model="node.nodes" ng-class="{hidden: collapsed}">
+    <li ng-repeat="node in node.nodes" ui-tree-node ng-include="'nodes_renderer2.html'">
+    </li>
+  </ol>
+</script>
