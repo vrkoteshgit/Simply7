@@ -6,9 +6,9 @@
   
   ##  Main Functionaliteis include
   
-       - Based on user login content renders.
-       - Push pull messages and educational materials will be served based on user intrestes
-       - Beautification of the content layout can be configured to each control level.
+       - Based on user login content renders content.
+       - Push pull messages and educational materials will be served based on user interests
+       - Beautification of the content layout can be configured for each control level.
        - All the ui components will be developed using Hybrid web development so that one source code compatible for multiple devices.
 
 
